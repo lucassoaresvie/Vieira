@@ -1,13 +1,20 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title> Vieira  </ion-title>
-    </ion-toolbar>
-  </ion-header>
-  <ion-content>
-    {{ nome }}
-<ion-img src= "https://www.pointmusic.com.br/wp-content/uploads/2019/01/Violino.jpg"> </ion-img>
-<ion-button (click)= "clicar()"> Reproduzir </ion-button>
-    </ion-content>
+<ion-toolbar>
+<ion-title>
+  Aula ionic
+  </ion-title>
+  </ion-toolbar>
+</ion-header>
 
-    <ion-footer>
-      </ion-footer>
+<ion-content>
+<ion-input [(ngModel)]="val1" > </ion-input>
+<ion-input [(ngModel)]="val2" > </ion-input>
+<ion-button (click)= "somar()">
+  ok
+</ion-button>
+
+</ion-content>
+
+<ion-footer>
+
+ </ion-footer>
